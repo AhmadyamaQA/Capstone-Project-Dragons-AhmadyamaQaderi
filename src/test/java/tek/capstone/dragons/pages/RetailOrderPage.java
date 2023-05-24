@@ -78,7 +78,7 @@ public class RetailOrderPage extends CommonUtility {
 	public WebElement reviewTextInputText;
 	@FindBy(id = "reviewSubmitBtn")
 	public WebElement addYourReviewBttn;
-	@FindBy(xpath = "/html/body/div/div[2]/div/div/div[1]/div[2]")
+	@FindBy(xpath = "//*[@id=\"ek2ny8n\"]/div[1]/div[2]")
 	public WebElement yourReviewWasAddedSuccessfully;
 	
 	
