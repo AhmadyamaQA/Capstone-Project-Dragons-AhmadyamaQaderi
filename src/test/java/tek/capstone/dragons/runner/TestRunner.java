@@ -8,10 +8,10 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@EditPaymentMethod",
+		tags = "@RemoveAddress",
 		features = ("classpath:features"), // path for features
 		glue = "tek.capstone.dragons",	   // path for steps
-		dryRun =false,
+		dryRun = false,
 		plugin = {
 				"pretty",
 				"html:target/htmlReports/cucumber-pretty.html",

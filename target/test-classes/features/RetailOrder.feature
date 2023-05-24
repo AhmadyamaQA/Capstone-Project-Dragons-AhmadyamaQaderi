@@ -1,4 +1,3 @@
-
 Feature: order retail
 
   Background: 
@@ -15,7 +14,7 @@ Feature: order retail
     And User click on Search icon
     And User click on item
     And User select quantity '2'
-    And User click add to Cart button
+    And User click add to Cart button11
     Then the cart icon quantity should change to '2'
 
   @addItemAndProductToCkOut
@@ -50,8 +49,8 @@ Feature: order retail
     And User select the drop off service 'FedEx'
     And User click on Return Order button
     Then a cancelation message should be displayed 'Return was successful'
-		
-		@ReviewOnOrderPlaced
+
+  @ReviewOnOrderPlaced
   Scenario: Verify User can write a review on order placed
     And User click on Orders section
     And User click on first order in list

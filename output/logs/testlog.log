@@ -2128,3 +2128,260 @@
 2023-05-22 22:20:55,548 - logger_file -INFO - user clicked on account option
 2023-05-22 22:20:55,813 - logger_file -INFO - 5054is selected
 2023-05-22 22:20:56,004 - logger_file -INFO - Edit button was clicked successfully
+2023-05-23 19:17:23,475 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:17:23,680 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:17:24,073 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:17:24,258 - logger_file -INFO - login button was clicked
+2023-05-23 19:17:25,044 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:17:27,751 - logger_file -INFO - Cancel the order button was clicked Successfully
+2023-05-23 19:17:28,031 - logger_file -INFO - cacelation reason button was selected
+2023-05-23 19:17:28,248 - logger_file -INFO - cancel order button was clicked successfully
+2023-05-23 19:18:38,597 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:18:38,874 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:18:39,211 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:18:39,370 - logger_file -INFO - login button was clicked
+2023-05-23 19:18:40,258 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:18:41,523 - logger_file -INFO - Cancel the order button was clicked Successfully
+2023-05-23 19:18:41,973 - logger_file -INFO - cacelation reason button was selected
+2023-05-23 19:18:42,282 - logger_file -INFO - cancel order button was clicked successfully
+2023-05-23 19:20:46,713 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:20:47,118 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:20:48,085 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:20:48,419 - logger_file -INFO - login button was clicked
+2023-05-23 19:20:49,345 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:22:04,881 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:22:05,136 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:22:05,556 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:22:05,689 - logger_file -INFO - login button was clicked
+2023-05-23 19:22:06,655 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:22:15,389 - logger_file -INFO - Cancel the order button was clicked Successfully
+2023-05-23 19:22:15,645 - logger_file -INFO - cacelation reason button was selected
+2023-05-23 19:22:15,841 - logger_file -INFO - cancel order button was clicked successfully
+2023-05-23 19:23:31,212 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:23:31,613 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:23:32,468 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:23:32,772 - logger_file -INFO - login button was clicked
+2023-05-23 19:23:33,888 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:24:28,250 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:24:28,586 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:24:29,364 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:24:29,497 - logger_file -INFO - login button was clicked
+2023-05-23 19:24:30,654 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:24:32,707 - logger_file -INFO - Cancel the order button was clicked Successfully
+2023-05-23 19:24:32,990 - logger_file -INFO - cacelation reason button was selected
+2023-05-23 19:24:33,251 - logger_file -INFO - cancel order button was clicked successfully
+2023-05-23 19:24:33,336 - logger_file -INFO - Your Order has been cancelled message has been displayed
+2023-05-23 19:26:31,391 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:26:31,579 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:26:32,158 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:26:32,397 - logger_file -INFO - login button was clicked
+2023-05-23 19:26:33,274 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:27:41,380 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:27:41,563 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:27:42,068 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:27:42,201 - logger_file -INFO - login button was clicked
+2023-05-23 19:27:43,380 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:27:48,240 - logger_file -INFO - return button was clicked successfully
+2023-05-23 19:27:48,424 - logger_file -INFO - Item damagedwas selected
+2023-05-23 19:27:48,619 - logger_file -INFO - FedEx service was selected
+2023-05-23 19:27:48,790 - logger_file -INFO - return order button was clicked successfully
+2023-05-23 19:27:48,844 - logger_file -INFO - Your Order has been cancelled message has been displayed
+2023-05-23 19:28:47,383 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:28:47,558 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:28:48,407 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:28:48,567 - logger_file -INFO - login button was clicked
+2023-05-23 19:28:49,895 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:28:51,842 - logger_file -INFO - Review button was clicked
+2023-05-23 19:28:52,170 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 19:28:52,443 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 19:30:20,958 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:30:21,221 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:30:21,792 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:30:22,071 - logger_file -INFO - login button was clicked
+2023-05-23 19:30:23,020 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:30:24,533 - logger_file -INFO - Review button was clicked
+2023-05-23 19:30:24,880 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 19:30:25,175 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 19:31:15,631 - logger_file -INFO - Retail website opened and verified
+2023-05-23 19:31:15,889 - logger_file -INFO - user clicked on sign in option
+2023-05-23 19:31:16,520 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 19:31:16,799 - logger_file -INFO - login button was clicked
+2023-05-23 19:31:18,024 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 19:31:19,725 - logger_file -INFO - Review button was clicked
+2023-05-23 19:31:20,065 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 19:31:20,348 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 20:37:17,355 - logger_file -INFO - Retail website opened and verified
+2023-05-23 20:37:17,659 - logger_file -INFO - user clicked on sign in option
+2023-05-23 20:37:18,031 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 20:37:18,178 - logger_file -INFO - login button was clicked
+2023-05-23 20:37:18,854 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 20:37:21,183 - logger_file -INFO - Review button was clicked
+2023-05-23 20:37:21,580 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 20:37:21,769 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 20:42:10,035 - logger_file -INFO - Retail website opened and verified
+2023-05-23 20:42:10,223 - logger_file -INFO - user clicked on sign in option
+2023-05-23 20:42:10,989 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 20:42:11,302 - logger_file -INFO - login button was clicked
+2023-05-23 20:42:12,752 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 20:42:18,988 - logger_file -INFO - Review button was clicked
+2023-05-23 20:42:19,333 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 20:42:19,520 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 20:43:55,356 - logger_file -INFO - Retail website opened and verified
+2023-05-23 20:43:55,861 - logger_file -INFO - user clicked on sign in option
+2023-05-23 20:43:56,512 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 20:43:56,637 - logger_file -INFO - login button was clicked
+2023-05-23 20:43:57,514 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 20:44:02,578 - logger_file -INFO - Review button was clicked
+2023-05-23 20:44:02,957 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 20:44:03,105 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 20:48:31,786 - logger_file -INFO - Retail website opened and verified
+2023-05-23 20:48:31,988 - logger_file -INFO - user clicked on sign in option
+2023-05-23 20:48:32,782 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 20:48:33,086 - logger_file -INFO - login button was clicked
+2023-05-23 20:48:34,131 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 20:48:39,203 - logger_file -INFO - Review button was clicked
+2023-05-23 20:48:39,528 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 20:48:39,684 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 20:49:45,143 - logger_file -INFO - Retail website opened and verified
+2023-05-23 20:49:45,344 - logger_file -INFO - user clicked on sign in option
+2023-05-23 20:49:46,131 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 20:49:46,409 - logger_file -INFO - login button was clicked
+2023-05-23 20:49:47,483 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 20:49:51,033 - logger_file -INFO - Review button was clicked
+2023-05-23 20:49:51,363 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 20:49:51,513 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 20:53:06,026 - logger_file -INFO - Retail website opened and verified
+2023-05-23 20:53:06,206 - logger_file -INFO - user clicked on sign in option
+2023-05-23 20:53:06,557 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 20:53:06,712 - logger_file -INFO - login button was clicked
+2023-05-23 20:53:07,454 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 20:53:11,405 - logger_file -INFO - Review button was clicked
+2023-05-23 20:53:11,740 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 20:53:11,877 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 20:55:48,994 - logger_file -INFO - Retail website opened and verified
+2023-05-23 20:55:49,167 - logger_file -INFO - user clicked on sign in option
+2023-05-23 20:55:49,520 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 20:55:49,649 - logger_file -INFO - login button was clicked
+2023-05-23 20:55:51,211 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 20:55:54,468 - logger_file -INFO - Review button was clicked
+2023-05-23 20:55:54,841 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 20:55:55,041 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 21:01:33,592 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:01:34,046 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:01:34,611 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:01:34,878 - logger_file -INFO - login button was clicked
+2023-05-23 21:01:35,770 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:01:40,121 - logger_file -INFO - Review button was clicked
+2023-05-23 21:01:40,449 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 21:01:40,600 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 21:03:08,076 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:03:08,255 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:03:08,598 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:03:08,726 - logger_file -INFO - login button was clicked
+2023-05-23 21:03:09,290 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:03:11,407 - logger_file -INFO - Review button was clicked
+2023-05-23 21:03:11,726 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 21:03:11,866 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 21:05:56,838 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:05:57,044 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:05:57,432 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:05:57,572 - logger_file -INFO - login button was clicked
+2023-05-23 21:05:58,767 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:06:03,129 - logger_file -INFO - Review button was clicked
+2023-05-23 21:06:03,475 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 21:06:03,665 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 21:08:50,884 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:08:51,107 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:08:51,558 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:08:51,715 - logger_file -INFO - login button was clicked
+2023-05-23 21:08:52,627 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:08:54,885 - logger_file -INFO - Review button was clicked
+2023-05-23 21:08:55,426 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 21:08:55,722 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 21:10:23,477 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:10:23,715 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:10:24,621 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:10:24,934 - logger_file -INFO - login button was clicked
+2023-05-23 21:10:25,717 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:10:28,016 - logger_file -INFO - Cancel the order button was clicked Successfully
+2023-05-23 21:10:28,331 - logger_file -INFO - cacelation reason button was selected
+2023-05-23 21:10:28,459 - logger_file -INFO - cancel order button was clicked successfully
+2023-05-23 21:10:28,535 - logger_file -INFO - Your Order has been cancelled message has been displayed
+2023-05-23 21:51:47,899 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:51:48,085 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:51:48,744 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:51:48,868 - logger_file -INFO - login button was clicked
+2023-05-23 21:51:49,858 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:51:55,952 - logger_file -INFO - return button was clicked successfully
+2023-05-23 21:51:56,222 - logger_file -INFO - Item damagedwas selected
+2023-05-23 21:51:56,442 - logger_file -INFO - FedEx service was selected
+2023-05-23 21:51:56,626 - logger_file -INFO - return order button was clicked successfully
+2023-05-23 21:51:56,677 - logger_file -INFO - Your Order has been cancelled message has been displayed
+2023-05-23 21:53:27,592 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:53:27,975 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:53:28,874 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:53:29,178 - logger_file -INFO - login button was clicked
+2023-05-23 21:53:30,367 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:53:35,270 - logger_file -INFO - Review button was clicked
+2023-05-23 21:53:35,716 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 21:53:35,872 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 21:55:24,153 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:55:24,443 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:55:25,244 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:55:25,400 - logger_file -INFO - login button was clicked
+2023-05-23 21:55:26,147 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 21:55:28,399 - logger_file -INFO - Review button was clicked
+2023-05-23 21:55:28,819 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 21:55:29,050 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-23 21:56:58,651 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:56:59,028 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:56:59,909 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:57:00,228 - logger_file -INFO - login button was clicked
+2023-05-23 21:57:01,401 - logger_file -INFO - user clicked on account option
+2023-05-23 21:57:01,805 - logger_file -INFO - Add payment selected
+2023-05-23 21:57:07,874 - logger_file -INFO - Card information entered
+2023-05-23 21:57:08,198 - logger_file -INFO - Add your card button was cliked successfully
+2023-05-23 21:57:09,189 - logger_file -INFO - Payment Method added sucessfully is displayed
+2023-05-23 21:58:01,330 - logger_file -INFO - Retail website opened and verified
+2023-05-23 21:58:01,507 - logger_file -INFO - user clicked on sign in option
+2023-05-23 21:58:02,411 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 21:58:02,726 - logger_file -INFO - login button was clicked
+2023-05-23 21:58:03,752 - logger_file -INFO - user clicked on account option
+2023-05-23 21:58:04,558 - logger_file -INFO - 2901is selected
+2023-05-23 21:58:04,889 - logger_file -INFO - Edit button was clicked successfully
+2023-05-23 22:00:06,877 - logger_file -INFO - Retail website opened and verified
+2023-05-23 22:00:07,155 - logger_file -INFO - user clicked on sign in option
+2023-05-23 22:00:07,900 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 22:00:08,101 - logger_file -INFO - login button was clicked
+2023-05-23 22:00:08,973 - logger_file -INFO - user clicked on account option
+2023-05-23 22:00:09,134 - logger_file -INFO - user clicked on account option
+2023-05-23 22:00:09,354 - logger_file -INFO - 5045is selected
+2023-05-23 22:00:09,529 - logger_file -INFO - Remove button was cliked successfully
+2023-05-23 22:00:09,530 - logger_file -INFO - Payment method removed
+2023-05-23 22:01:59,546 - logger_file -INFO - Retail website opened and verified
+2023-05-23 22:01:59,863 - logger_file -INFO - user clicked on sign in option
+2023-05-23 22:02:00,443 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 22:02:00,780 - logger_file -INFO - login button was clicked
+2023-05-23 22:02:01,583 - logger_file -INFO - user clicked on account option
+2023-05-23 22:02:01,786 - logger_file -INFO - user clicked on account option
+2023-05-23 22:02:02,061 - logger_file -INFO - Address Link was clicked successfully
+2023-05-23 22:02:04,516 - logger_file -INFO - User entered address info successfully
+2023-05-23 22:02:04,794 - logger_file -INFO - Add Address button was clicked successfully
+2023-05-23 22:02:05,928 - logger_file -INFO - Address Added Successfullyis displayed
+2023-05-23 22:03:17,485 - logger_file -INFO - Retail website opened and verified
+2023-05-23 22:03:17,951 - logger_file -INFO - user clicked on sign in option
+2023-05-23 22:03:18,515 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 22:03:18,789 - logger_file -INFO - login button was clicked
+2023-05-23 22:03:19,648 - logger_file -INFO - user clicked on account option
+2023-05-23 22:03:19,971 - logger_file -INFO - user clicked on account option
+2023-05-23 22:03:20,150 - logger_file -INFO - Edit option was cliked successfully
+2023-05-23 22:03:23,622 - logger_file -INFO - User entered new address info successfully
+2023-05-23 22:03:23,839 - logger_file -INFO - Update your address clicked successfully
+2023-05-23 22:04:23,068 - logger_file -INFO - Retail website opened and verified
+2023-05-23 22:04:23,516 - logger_file -INFO - user clicked on sign in option
+2023-05-23 22:04:24,065 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 22:04:24,408 - logger_file -INFO - login button was clicked
+2023-05-23 22:04:25,524 - logger_file -INFO - user clicked on account option
+2023-05-23 22:04:25,855 - logger_file -INFO - user clicked on account option
+2023-05-23 22:04:26,055 - logger_file -INFO - Remove button cliced successfully
+2023-05-23 22:04:26,057 - logger_file -INFO - Address successfully removed

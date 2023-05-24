@@ -158,8 +158,8 @@ public class RetailOrderSteps extends CommonUtility {
 
 	}
 
-	@Then("a cancelation message should be displayed 'Your Order Has Been Cancelled'​​​​​​​")
-	public void aCancelationMessageShouldBeDisplayedYourOrderHasBeenCancelled​​​​​​​() {
+	@Then("a cancelation message should be displayed {string}")
+	public void aCancelationMessageShouldBeDisplayedYourOrderHasBeenCancelled​​​​​​​(String cancelOrder) {
 		Assert.assertTrue(isElementDisplayed(factory.retailorderpage().yourOrderHasBeenCancelled));
 		logger.info("Your Order has been cancelled message has been displayed");
 	}
@@ -215,7 +215,7 @@ public class RetailOrderSteps extends CommonUtility {
 	}
 	@Then("a review message should be displayed 'Your review was added successfully'​​​​​​​")
 	public void aReviewMessageShouldBeDisplayedYourReviewWasAddedSuccessfully​​​​​​​() {
-		Assert.assertTrue(isElementDisplayed(factory.retailorderpage().yourReviewWasAddedSuccessfully));
+		Assert.assertTrue(isElementDisplayed(factory.retailorderpage().orderPlaceSuccessllyMsg));
 		logger.info("Your review was added successfully");
 
 	}
