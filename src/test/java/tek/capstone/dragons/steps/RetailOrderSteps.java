@@ -215,7 +215,7 @@ public class RetailOrderSteps extends CommonUtility {
 	}
 	@Then("a review message should be displayed 'Your review was added successfully'​​​​​​​")
 	public void aReviewMessageShouldBeDisplayedYourReviewWasAddedSuccessfully​​​​​​​() {
-		Assert.assertTrue(isElementDisplayed(factory.retailorderpage().orderPlaceSuccessllyMsg));
+		Assert.assertTrue(isElementDisplayed(factory.retailorderpage().yourReviewWasAddedSuccessfully));
 		logger.info("Your review was added successfully");
 
 	}

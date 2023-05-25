@@ -2385,3 +2385,26 @@
 2023-05-23 22:04:25,855 [main] INFO logger_file - user clicked on account option
 2023-05-23 22:04:26,055 [main] INFO logger_file - Remove button cliced successfully
 2023-05-23 22:04:26,057 [main] INFO logger_file - Address successfully removed
+2023-05-23 22:39:27,468 [main] INFO logger_file - Retail website opened and verified
+2023-05-23 22:39:27,761 [main] INFO logger_file - user clicked on sign in option
+2023-05-23 22:39:28,383 [main] INFO logger_file - John01@gmail.com: was entered
+2023-05-23 22:39:28,657 [main] INFO logger_file - login button was clicked
+2023-05-23 22:39:29,850 [main] INFO logger_file - Orders button clicked successfully
+2023-05-23 22:39:32,345 [main] INFO logger_file - Review button was clicked
+2023-05-23 22:39:32,833 [main] INFO logger_file - User successfully write comment in Review section
+2023-05-23 22:39:32,992 [main] INFO logger_file - Add Your Review button was clicked successfully
+2023-05-24 15:01:36,455 [main] INFO logger_file - Retail website opened and verified
+2023-05-24 15:01:36,753 [main] INFO logger_file - user clicked on sign in option
+2023-05-24 15:01:36,914 [main] INFO logger_file - New account button was clicked
+2023-05-24 15:01:37,793 [main] INFO logger_file - Registration info entered
+2023-05-24 15:01:37,944 [main] INFO logger_file - Sign up button was clicked
+2023-05-24 15:02:26,187 [main] INFO logger_file - Retail website opened and verified
+2023-05-24 15:02:26,576 [main] INFO logger_file - user clicked on sign in option
+2023-05-24 15:02:26,766 [main] INFO logger_file - New account button was clicked
+2023-05-24 15:02:27,611 [main] INFO logger_file - Registration info entered
+2023-05-24 15:02:27,789 [main] INFO logger_file - Sign up button was clicked
+2023-05-24 15:03:00,689 [main] INFO logger_file - Retail website opened and verified
+2023-05-24 15:03:00,976 [main] INFO logger_file - user clicked on sign in option
+2023-05-24 15:03:01,125 [main] INFO logger_file - New account button was clicked
+2023-05-24 15:03:01,978 [main] INFO logger_file - Registration info entered
+2023-05-24 15:03:02,132 [main] INFO logger_file - Sign up button was clicked
