@@ -2385,3 +2385,26 @@
 2023-05-23 22:04:25,855 - logger_file -INFO - user clicked on account option
 2023-05-23 22:04:26,055 - logger_file -INFO - Remove button cliced successfully
 2023-05-23 22:04:26,057 - logger_file -INFO - Address successfully removed
+2023-05-23 22:39:27,468 - logger_file -INFO - Retail website opened and verified
+2023-05-23 22:39:27,761 - logger_file -INFO - user clicked on sign in option
+2023-05-23 22:39:28,383 - logger_file -INFO - John01@gmail.com: was entered
+2023-05-23 22:39:28,657 - logger_file -INFO - login button was clicked
+2023-05-23 22:39:29,850 - logger_file -INFO - Orders button clicked successfully
+2023-05-23 22:39:32,345 - logger_file -INFO - Review button was clicked
+2023-05-23 22:39:32,833 - logger_file -INFO - User successfully write comment in Review section
+2023-05-23 22:39:32,992 - logger_file -INFO - Add Your Review button was clicked successfully
+2023-05-24 15:01:36,455 - logger_file -INFO - Retail website opened and verified
+2023-05-24 15:01:36,753 - logger_file -INFO - user clicked on sign in option
+2023-05-24 15:01:36,914 - logger_file -INFO - New account button was clicked
+2023-05-24 15:01:37,793 - logger_file -INFO - Registration info entered
+2023-05-24 15:01:37,944 - logger_file -INFO - Sign up button was clicked
+2023-05-24 15:02:26,187 - logger_file -INFO - Retail website opened and verified
+2023-05-24 15:02:26,576 - logger_file -INFO - user clicked on sign in option
+2023-05-24 15:02:26,766 - logger_file -INFO - New account button was clicked
+2023-05-24 15:02:27,611 - logger_file -INFO - Registration info entered
+2023-05-24 15:02:27,789 - logger_file -INFO - Sign up button was clicked
+2023-05-24 15:03:00,689 - logger_file -INFO - Retail website opened and verified
+2023-05-24 15:03:00,976 - logger_file -INFO - user clicked on sign in option
+2023-05-24 15:03:01,125 - logger_file -INFO - New account button was clicked
+2023-05-24 15:03:01,978 - logger_file -INFO - Registration info entered
+2023-05-24 15:03:02,132 - logger_file -INFO - Sign up button was clicked
