@@ -43,7 +43,7 @@ public class RetailAccountPage extends BaseSetup {
 	public WebElement paymentMethodAddedSuccessMessag;
 	
 	// Edit payment method
-	@FindBy(xpath = "//div[@class='account__payment']//button[text()='Edit']")
+	@FindBy(xpath = "//div[@class='flex gap-2 py-2']//child::button[text()='Edit']")
 	public WebElement creditDebitCardEditBttn;
 	@FindBy(xpath = "//div[text()='Payment Method updated Successfully']")
 	public WebElement paymentMethodUpdatedSuccessMsg;
@@ -52,7 +52,7 @@ public class RetailAccountPage extends BaseSetup {
 	// remove payment method
 	@FindBy(xpath = "//p[@class= 'account__payment__sub-text']")
 	public List<WebElement> cardEndingNum;
-	@FindBy (xpath = "//*[@id=\"root\"]/div[1]/div[1]/div[3]/div/div[2]/div/div[2]/div/div[1]/div[2]/div/button[2]")
+	@FindBy (xpath = "//button[text()='remove']")
 	public WebElement removeCardBttn;
 
 	
