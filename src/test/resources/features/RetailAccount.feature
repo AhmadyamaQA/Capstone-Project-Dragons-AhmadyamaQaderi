@@ -10,7 +10,7 @@ Feature: Retail Account
 
   @updateProfile
   Scenario: Verify User can update Profile Information
-    And User update Name 'Dragontek' and phone '200-301-1011'
+    And User update Name 'Dragont' and phone '202-301-1011'
     And User click on update button
     Then user profile information should be updated
 
