@@ -1,4 +1,4 @@
-Feature: Retail Account
+Feature: Retail Account Page
 
   Background: 
     Given User is on retail website
@@ -19,17 +19,17 @@ Feature: Retail Account
     And User click on Add a payment method link
     And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 1223567613127777 | Johnny     |              12 |           2028 |          371 |
+      | 1223567613122222 | Carol      |              12 |           3028 |          371 |
     And User click on Add your card button
     Then a message should be displayed 'Payment Method added sucessfully'
 
   @EditPaymentMethod
   Scenario: Verify User can edit Debit or Credit card
-    And User select the card ending with '7777'
+    And User select the card ending with '2222'
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 3312187994342525 | Bob        |              12 |           2029 |          301 |
+      | 3312187994345555 | Bob        |              10 |           2039 |          301 |
     And user click on Update Your Card button
 
   @RemovePaymentMethod
@@ -45,7 +45,7 @@ Feature: Retail Account
     And User click on Add address option
     And user fill new address form with below information
       | country       | fullName | phoneNumber  | streetAddress   | apt | city      | state      | zipCode |
-      | United States | Ajay     | 917-888-9922 | 301 Laguna Blvd |  65 | Elk Grove | California |   95516 |
+      | United States | jay      | 917-888-9921 | 301 Laguna Blvd |  75 | Elk Grove | California |   95516 |
     And User click Add Your Address button
     Then A message should be display 'Address Added Successfully'
 
@@ -55,7 +55,7 @@ Feature: Retail Account
     And User click on edit address option
     And User fill new address form with below informations
       | country       | fullName | phoneNumber  | streetAddress     | apt | city      | state      | zipCode |
-      | United States | Johny    | 916-878-1001 | 30 Elk grove blvd |  76 | Elk Grove | California |   26580 |
+      | United States | John     | 916-878-1021 | 32 Elk grove blvd |  96 | Elk Grove | California |   26580 |
     And User click update Your Address button
 
   @RemoveAddress
