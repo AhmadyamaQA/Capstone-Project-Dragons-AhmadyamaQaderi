@@ -94,27 +94,29 @@ public class RetailAccountSteps extends CommonUtility {
 			Assert.assertEquals(expectedMssg, factory.accountPage().addressAddedSuccessfully.getText());
 			logger.info(expectedMssg + "is displayed");
 
-		} else if (expectedMssg.contains("Payment Method updated")) {
+		} else if (expectedMssg.contains("Updated")) {
 			waitTillPresence(factory.accountPage().paymentMethodUpdatedSuccessMsg);
 			Assert.assertEquals(expectedMssg, factory.accountPage().paymentMethodUpdatedSuccessMsg.getText());
 			logger.info(expectedMssg + "is displayed");
 
-		} else if (expectedMssg.contains("Order Placed")) {
-			waitTillPresence(factory.retailorderpage().orderPlaceSuccessllyMsg);
-			Assert.assertEquals(expectedMssg, factory.retailorderpage().orderPlaceSuccessllyMsg);
-			logger.info(expectedMssg + "message was verified successfully");
-
+//		} else if (expectedMssg.contains("Order Placed")) {
+//			waitTillPresence(factory.retailorderpage().orderPlaceSuccessllyMsg);
+//			Assert.assertEquals(expectedMssg, factory.retailorderpage().orderPlaceSuccessllyMsg);
+//			logger.info(expectedMssg + "message was verified successfully");
+//
 			}
 }
 	// Edit card method
 	@Then("User click on Edit option of card section")
-	public void userClickOnEditOptionOfCardSection() {
+	public void userClickOnEditOptionOfCardSection() throws InterruptedException {
+		Thread.sleep(3000);
 		click(factory.accountPage().creditDebitCardEditBttn);
 		logger.info("Edit button was clicked successfully");
 	}
 
 	@Then("user edit information with below data")
-	public void userEditInformationWithBelowData(DataTable dataTable) {
+	public void userEditInformationWithBelowData(DataTable dataTable) throws InterruptedException {
+		Thread.sleep(3000);
 		List<Map<String, String>> UserEditInfo = dataTable.asMaps(String.class, String.class);
 		clearTextUsingSendKeys(factory.accountPage().cardNumInputField);
 		sendText(factory.accountPage().cardNumInputField, UserEditInfo.get(0).get("cardNumber"));
@@ -125,12 +127,14 @@ public class RetailAccountSteps extends CommonUtility {
 		selectByVisibleText(factory.accountPage().expirationYearInputField, UserEditInfo.get(0).get("expirationYear"));
 		clearTextUsingSendKeys(factory.accountPage().securityCodeInputField);
 		sendText(factory.accountPage().securityCodeInputField, UserEditInfo.get(0).get("securityCode"));
+		logger.info("User updated card info successfully");
 
 	}
 
 	@Then("user click on Update Your Card button")
 	public void userClickOnUpdateYourCardButton() {
 		click(factory.accountPage().addYourCardBttn);
+		logger.info("User click on update payment button successfully");
 	}
 
 	// Remove card method

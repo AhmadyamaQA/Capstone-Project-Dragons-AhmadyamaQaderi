@@ -26,7 +26,7 @@ public class BaseSetup {
 			environmentVariables = ReadYamlFiles.getInstance(filePath);
 		} catch (Exception e) {
 			System.out.println("Failed to load env_config property. Check your filePath");
-			throw new RuntimeException("Failed to load env_config file: " + e.getMessage());
+			throw new RuntimeException("Failed to load env_config file:" + e.getLocalizedMessage());
 		}
 		logger = logger.getLogger("logger_file");
 		PropertyConfigurator.configure(log4jPath);
