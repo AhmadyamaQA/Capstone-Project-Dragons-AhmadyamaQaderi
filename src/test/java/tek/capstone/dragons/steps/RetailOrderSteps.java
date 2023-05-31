@@ -146,6 +146,7 @@ public class RetailOrderSteps extends CommonUtility {
 
 	@When("User select the cancelation Reason {string}")
 	public void userSelectTheCancelationReason(String Boughtwrongitem) {
+		click(factory.retailorderpage().cancelationReasonBttn);
 		selectByVisibleText(factory.retailorderpage().cancelationReasonBttn,Boughtwrongitem);
 		logger.info("cacelation reason button was selected");
 
@@ -159,7 +160,8 @@ public class RetailOrderSteps extends CommonUtility {
 	}
 
 	@Then("a cancelation message should be displayed {string}")
-	public void aCancelationMessageShouldBeDisplayedYourOrderHasBeenCancelled​​​​​​​(String cancelOrder) {
+	public void aCancelationMessageShouldBeDisplayedYourOrderHasBeenCancelled​​​​​​​(String cancelOrder) throws InterruptedException {
+		Thread.sleep(2000);
 		Assert.assertTrue(isElementDisplayed(factory.retailorderpage().yourOrderHasBeenCancelled));
 		logger.info("Your Order has been cancelled message has been displayed");
 	}

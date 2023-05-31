@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: tek.capstone.dragons.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.582 s <<< FAILURE! - in tek.capstone.dragons.runner.TestRunner
-Retail SignIn.Verify user can create an account into Retail Website  Time elapsed: 4.225 s  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.045 s <<< FAILURE! - in tek.capstone.dragons.runner.TestRunner
+Retail Home Page.Verify Shop by Department sidebar  Time elapsed: 3.103 s  <<< ERROR!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:53163/devtools/browser/9fcb5940-6e23-4294-8e73-10220a72d696
+Unable to establish websocket connection to http://localhost:55548/devtools/browser/717826d8-5b27-4cab-b2e8-885fac875033
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'DESKTOP-2KPVANE', ip: '10.0.0.97', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
 Driver info: driver.version: ChromeDriver
@@ -21,7 +21,7 @@ Driver info: driver.version: ChromeDriver
 	at tek.capstone.dragons.base.BaseSetup.setupBrowser(BaseSetup.java:50)
 	at tek.capstone.dragons.base.BaseUITest.setupTests(BaseUITest.java:12)
 
-Retail SignIn.Verify user can create an account into Retail Website  Time elapsed: 4.23 s  <<< ERROR!
+Retail Home Page.Verify Shop by Department sidebar  Time elapsed: 3.104 s  <<< ERROR!
 java.lang.NullPointerException
 	at tek.capstone.dragons.utilities.CommonUtility.takeScreenShotAsBytes(CommonUtility.java:64)
 	at tek.capstone.dragons.base.BaseUITest.closeTests(BaseUITest.java:19)
