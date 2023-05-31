@@ -14,7 +14,7 @@ Feature: Retail SignIn
     When User click on Sign in option
     And User click on Create New Account button
     And User fill the signUp information with below data
-      | name    | email            | password | confirmPassword |
-      | student | carlosj@gmail.com | Tek@434 | Tek@434        |
+      | name    | email             | password | confirmPassword |
+      | student | carlosj@gmail.com | Tek@434  | Tek@434         |
     And User click on SignUp button
     Then User should be logged into account page
