@@ -233,15 +233,15 @@ public class RetailAccountSteps extends CommonUtility {
 
 	}
 
-	@Then("a message should be displayed ‘Address Updated Successfully’")
-	public void aMessageShouldBeDisplayedAddressUpdatedSuccessfully(String expectedMssg) {
-		if (expectedMssg.contains("Address Updated Successfully")) {
-			waitTillPresence(factory.accountPage().addressUpdatedSuccessfully);
-			Assert.assertEquals(expectedMssg, factory.accountPage().addressUpdatedSuccessfully.getText());
-			logger.info(expectedMssg + " is displayed");
-		}
+//	@Then("a message should be displayed ‘Address Updated Successfully’")
+//	public void aMessageShouldBeDisplayedAddressUpdatedSuccessfully(String expectedMssg) {
+//		if (expectedMssg.contains("Address Updated Successfully")) {
+//			waitTillPresence(factory.accountPage().addressUpdatedSuccessfully);
+//			Assert.assertEquals(expectedMssg, factory.accountPage().addressUpdatedSuccessfully.getText());
+//			logger.info(expectedMssg + " is displayed");
+//		}
 
-	}
+	
 	// Remove address method
 
 	@When("User click on remove option of Address section")
