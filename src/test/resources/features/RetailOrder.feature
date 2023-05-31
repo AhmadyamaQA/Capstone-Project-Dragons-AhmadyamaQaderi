@@ -55,5 +55,5 @@ Feature: order retail
     And User click on Orders section
     And User click on first order in list
     And User click on Review button
-    And User write Review headline 'Quality' and 'Product has good quality'
+    And User write Review headline 'good quality' and 'Product has best price'
     And User click Add your Review button​​​​​​​

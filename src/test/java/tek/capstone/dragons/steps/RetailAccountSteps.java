@@ -87,18 +87,18 @@ public class RetailAccountSteps extends CommonUtility {
 		if (expectedMssg.contains("Payment")) {
 			waitTillPresence(factory.accountPage().paymentMethodAddedSuccessMessag);
 			Assert.assertEquals(expectedMssg, factory.accountPage().paymentMethodAddedSuccessMessag.getText());
-			logger.info(expectedMssg + " is displayed");
+//			logger.info(expectedMssg + " is displayed");
 
-		} else if (expectedMssg.contains("Updated")) {
-			waitTillPresence(factory.accountPage().paymentMethodUpdatedSuccessMsg);
-			Assert.assertEquals(expectedMssg, factory.accountPage().paymentMethodUpdatedSuccessMsg.getText());
-			logger.info(expectedMssg + "is displayed");
+//		} else if (expectedMssg.contains("Updated")) {
+//			waitTillPresence(factory.accountPage().paymentMethodUpdatedSuccessMsg);
+//			Assert.assertEquals(expectedMssg, factory.accountPage().paymentMethodUpdatedSuccessMsg.getText());
+//			logger.info(expectedMssg + "is displayed");
 
-//		} else if (expectedMssg.contains("Order Placed")) {
-//			waitTillPresence(factory.retailorderpage().orderPlaceSuccessllyMsg);
-//			Assert.assertEquals(expectedMssg, factory.retailorderpage().orderPlaceSuccessllyMsg);
-//			logger.info(expectedMssg + "message was verified successfully");
-//
+		} else if (expectedMssg.contains("Order Placed")) {
+			waitTillPresence(factory.retailorderpage().orderPlaceSuccessllyMsg);
+			Assert.assertEquals(expectedMssg, factory.retailorderpage().orderPlaceSuccessllyMsg);
+			logger.info(expectedMssg + "message was verified successfully");
+
 		}
 	}
 
@@ -127,11 +127,11 @@ public class RetailAccountSteps extends CommonUtility {
 
 	}
 
-	@Then("user click on Update Your Card button")
-	public void userClickOnUpdateYourCardButton() {
-		click(factory.accountPage().addYourCardBttn);
-		logger.info("User click on update payment button successfully");
-	}
+//	@Then("user click on Update Your Card button")
+//	public void userClickOnUpdateYourCardButton() {
+//		click(factory.accountPage().addYourCardBttn);
+//		logger.info("User click on update payment button successfully");
+//	}
 
 	// Remove card method
 	@When("User select the card ending with {string}")
