@@ -19,13 +19,12 @@ Feature: Retail Account Page
     And User click on Add a payment method link
     And User fill Debit or credit card information
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
-      | 1223567613121111 | Carlos     |              12 |           3028 |          371 |
+      | 1223567613121111 | Carloy     |              12 |           3028 |          371 |
     And User click on Add your card button
     Then a message should be displayed 'Payment Method added sucessfully'
 
   @EditPaymentMethod
   Scenario: Verify User can edit Debit or Credit card
-    #And User select the card ending with '1111'
     And User click on Edit option of card section
     And user edit information with below data
       | cardNumber       | nameOnCard | expirationMonth | expirationYear | securityCode |
