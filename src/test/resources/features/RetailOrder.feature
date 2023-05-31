@@ -1,4 +1,4 @@
-Feature: order retail
+Feature: Retail Order Page
 
   Background: 
     Given User is on retail website

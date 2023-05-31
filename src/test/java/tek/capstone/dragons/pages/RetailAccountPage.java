@@ -27,7 +27,7 @@ public class RetailAccountPage extends BaseSetup {
 	// locators for add payment method
 	@FindBy(xpath = "//*[@id=\"root\"]/div[1]/div[1]/div[3]/div/div[2]/div/div[1]/div/div/div[2]/p")
 	public WebElement addPaymentMethodLink;
-	@FindBy(id ="cardNumberInput")
+	@FindBy(xpath ="//*[@id=\"cardNumberInput\"]")
 	public WebElement cardNumInputField;
 	@FindBy(xpath ="//*[@id=\"nameOnCardInput\"]")
 	public WebElement nameOfTheCardInputField;
