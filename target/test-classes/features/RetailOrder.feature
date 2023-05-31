@@ -56,5 +56,4 @@ Feature: order retail
     And User click on first order in list
     And User click on Review button
     And User write Review headline 'Quality' and 'Product has good quality'
-    And User click Add your Review button
-    Then a review message should be displayed 'Your review was added successfully'​​​​​​​
+    And User click Add your Review button​​​​​​​

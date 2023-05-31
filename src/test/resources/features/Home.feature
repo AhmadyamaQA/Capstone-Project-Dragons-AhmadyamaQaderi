@@ -3,7 +3,7 @@ Feature: Retail Home Page
   Background: 
     Given User is on retail website
     When User click on All section
-    
+
   @AllSelections
   Scenario: Verify Shop by Department sidebar
     Then below options are present in Shop by Department sidebar
