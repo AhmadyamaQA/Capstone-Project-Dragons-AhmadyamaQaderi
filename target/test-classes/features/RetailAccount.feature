@@ -48,7 +48,7 @@ Feature: Retail Account
       | country       | fullName | phoneNumber  | streetAddress   | apt | city      | state      | zipCode |
       | United States | Alex     | 917-888-9999 | 100 Laguna Blvd |  10 | Elk Grove | California |   95956 |
     And User click Add Your Address button
-    Then a message should be displayed 'Address Added Successfully'
+    Then A message should be display 'Address Added Successfully'
 
   @EditAddress
   Scenario: Verify User can edit an Address added on account

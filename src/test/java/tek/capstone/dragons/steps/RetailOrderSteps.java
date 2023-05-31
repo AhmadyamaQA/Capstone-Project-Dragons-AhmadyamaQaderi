@@ -14,7 +14,8 @@ public class RetailOrderSteps extends CommonUtility {
 	POMFactory factory = new POMFactory();
 
 	@When("User change the category to {string}")
-	public void userChangeTheCategoryTo(String SmartHome) {
+	public void userChangeTheCategoryTo(String SmartHome) throws InterruptedException {
+		Thread.sleep(2000);
 		selectByVisibleText(factory.retailorderpage().allDepartmentsDropdown, SmartHome);
 		logger.info(SmartHome + "option is selected successfully");
 
@@ -34,7 +35,8 @@ public class RetailOrderSteps extends CommonUtility {
 	}
 
 	@When("User click on item")
-	public void userClickOnItem() {
+	public void userClickOnItem() throws InterruptedException {
+		Thread.sleep(2000);
 		click(factory.retailorderpage().kasaOutdoorSmartPlugItem);
 		logger.info("item was clicked successfully");
 

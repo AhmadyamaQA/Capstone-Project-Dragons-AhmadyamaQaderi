@@ -55,7 +55,6 @@ public class RetailAccountSteps extends CommonUtility {
 
 	}
 
-
 	// Add card method
 	@And("User click on Add a payment method link")
 	public void userClickOnAddAPaymentMethodLink() {
@@ -64,7 +63,8 @@ public class RetailAccountSteps extends CommonUtility {
 	}
 
 	@When("User fill Debit or credit card information")
-	public void userFillDebitOrCreditCardInformation(DataTable dataTable) {
+	public void userFillDebitOrCreditCardInformation(DataTable dataTable) throws InterruptedException {
+		Thread.sleep(2000);
 		List<Map<String, String>> paymentInfo = dataTable.asMaps(String.class, String.class);
 		sendText(factory.accountPage().cardNumInputField, paymentInfo.get(0).get("cardNumber"));
 		sendText(factory.accountPage().nameOfTheCardInputField, paymentInfo.get(0).get("nameOnCard"));
@@ -89,11 +89,6 @@ public class RetailAccountSteps extends CommonUtility {
 			Assert.assertEquals(expectedMssg, factory.accountPage().paymentMethodAddedSuccessMessag.getText());
 			logger.info(expectedMssg + " is displayed");
 
-		} else if (expectedMssg.contains("Address")) {
-			waitTillPresence(factory.accountPage().addressAddedSuccessfully);
-			Assert.assertEquals(expectedMssg, factory.accountPage().addressAddedSuccessfully.getText());
-			logger.info(expectedMssg + "is displayed");
-
 		} else if (expectedMssg.contains("Updated")) {
 			waitTillPresence(factory.accountPage().paymentMethodUpdatedSuccessMsg);
 			Assert.assertEquals(expectedMssg, factory.accountPage().paymentMethodUpdatedSuccessMsg.getText());
@@ -104,8 +99,9 @@ public class RetailAccountSteps extends CommonUtility {
 //			Assert.assertEquals(expectedMssg, factory.retailorderpage().orderPlaceSuccessllyMsg);
 //			logger.info(expectedMssg + "message was verified successfully");
 //
-			}
-}
+		}
+	}
+
 	// Edit card method
 	@Then("User click on Edit option of card section")
 	public void userClickOnEditOptionOfCardSection() throws InterruptedException {
@@ -139,7 +135,8 @@ public class RetailAccountSteps extends CommonUtility {
 
 	// Remove card method
 	@When("User select the card ending with {string}")
-	public void userSelectTheCardEndingWith(String string) {
+	public void userSelectTheCardEndingWith(String string) throws InterruptedException {
+		Thread.sleep(2000);
 		List<WebElement> cards = factory.accountPage().cardEndingNum;
 		for (WebElement card : cards) {
 			if (card.getText().contains(string)) {
@@ -163,7 +160,6 @@ public class RetailAccountSteps extends CommonUtility {
 		logger.info("Payment method removed");
 	}
 
-	
 	// Add Address
 	@When("User click on Add address option")
 	public void userClickOnAddAddressOption() {
@@ -186,9 +182,20 @@ public class RetailAccountSteps extends CommonUtility {
 	}
 
 	@When("User click Add Your Address button")
-	public void userClickAddYourAddressButton() {
+	public void userClickAddYourAddressButton() throws InterruptedException {
+		Thread.sleep(2000);
 		click(factory.accountPage().addressAddAddressBttn);
 		logger.info("Add Address button was clicked successfully");
+	}
+
+	@Then("A message should be display {string}")
+	public void aMessageShouldBeDisplay(String expectedMsg) {
+
+		if (expectedMsg.contains("Address")) {
+			waitTillPresence(factory.accountPage().addressAddedSuccessfully);
+			Assert.assertEquals(expectedMsg, factory.accountPage().addressAddedSuccessfully.getText());
+			logger.info(expectedMsg + "is displayed");
+		}
 	}
 
 	// Edit Address Method

@@ -14,7 +14,7 @@ Feature: order retail
     And User click on Search icon
     And User click on item
     And User select quantity '2'
-    And User click add to Cart button11
+    And User click add to Cart button
     Then the cart icon quantity should change to '2'
 
   @addItemAndProductToCkOut
